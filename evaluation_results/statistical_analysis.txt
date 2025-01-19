@@ -1,0 +1,117 @@
+Statistical Analysis
+
+Metric: P@1
+Average scores:
+Method      P@1
+  BM25 0.432666
+ Dense 0.361237
+Hybrid 0.504095
+Improvement percentages:
+Dense vs BM25: -16.51%
+Hybrid vs BM25: 16.51%
+Hybrid vs Dense: 39.55%
+
+Metric: P@5
+Average scores:
+Method      P@5
+  BM25 0.268244
+ Dense 0.220837
+Hybrid 0.295996
+Improvement percentages:
+Dense vs BM25: -17.67%
+Hybrid vs BM25: 10.35%
+Hybrid vs Dense: 34.03%
+
+Metric: P@10
+Average scores:
+Method     P@10
+  BM25 0.170701
+ Dense 0.144449
+Hybrid 0.195951
+Improvement percentages:
+Dense vs BM25: -15.38%
+Hybrid vs BM25: 14.79%
+Hybrid vs Dense: 35.65%
+
+Metric: nDCG@10
+Average scores:
+Method  nDCG@10
+  BM25 0.330222
+ Dense 0.256583
+Hybrid 0.369864
+Improvement percentages:
+Dense vs BM25: -22.30%
+Hybrid vs BM25: 12.00%
+Hybrid vs Dense: 44.15%
+
+Metric: nDCG@20
+Average scores:
+Method  nDCG@20
+  BM25 0.347616
+ Dense 0.275896
+Hybrid 0.406591
+Improvement percentages:
+Dense vs BM25: -20.63%
+Hybrid vs BM25: 16.97%
+Hybrid vs Dense: 47.37%
+
+Metric: MRR
+Average scores:
+Method      MRR
+  BM25 0.509423
+ Dense 0.421425
+Hybrid 0.588432
+Improvement percentages:
+Dense vs BM25: -17.27%
+Hybrid vs BM25: 15.51%
+Hybrid vs Dense: 39.63%
+
+Metric: MAP
+Average scores:
+Method      MAP
+  BM25 0.298716
+ Dense 0.228662
+Hybrid 0.332116
+Improvement percentages:
+Dense vs BM25: -23.45%
+Hybrid vs BM25: 11.18%
+Hybrid vs Dense: 45.24%
+
+
+Query-level Analysis:
+Number of queries where each method performs best:
+
+P@1:
+BM25: 1644
+Dense: 371
+Hybrid: 183
+
+P@5:
+BM25: 1293
+Dense: 570
+Hybrid: 335
+
+P@10:
+BM25: 1231
+Dense: 585
+Hybrid: 382
+
+nDCG@10:
+BM25: 965
+Hybrid: 663
+Dense: 570
+
+nDCG@20:
+BM25: 891
+Hybrid: 735
+Dense: 572
+
+RR:
+BM25: 1306
+Dense: 520
+Hybrid: 372
+
+AP:
+BM25: 915
+Hybrid: 707
+Dense: 576
